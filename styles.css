@@ -8,36 +8,21 @@ body{
     overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6{
-    margin: 1rem 0;
-    padding: 1rem 0;
+       padding: 1rem 0;
     text-align: center;
 }
-.navigation-bar{
-    background-color: #c2e5d3;
-    margin: 0;
-    padding: 1rem;
-    min-height: 60px;
+.btn{
+   margin-top: 1.5rem;
+    text-transform: uppercase;
 }
-ul{
-    /* display: inline-block; */
-    display: inline-flex;
-    justify-content: center; 
-      
-}
-li{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color: #333;
-}
-a:hover{
-    text-decoration: underline;
-    color: #333;
-    cursor: pointer;
-}
+
+
 .main{
     background-color: #c2e5d3;
+    background-image: url(images/cloud.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
     padding: 1rem;
@@ -63,33 +48,22 @@ img{
     width: 150px;
     border-radius: 100%;
 }
-.nodejs, .reactjs{
-    display:  flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.java, .flutter{
-    display:  flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    
-}
-img{
-    width: 100px;
-}
-.about{
+
+.about, .contact{
     width: 50%;
     margin: auto;
-    padding: 2rem 0;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.footer{margin-top: 2rem;
+.about{
+    padding-top: 2rem;
+}
+
+.footer{
+    margin-top: 2rem;
     background-color: #c2e5d3;
     min-height: 100px;
     padding: 1rem;
